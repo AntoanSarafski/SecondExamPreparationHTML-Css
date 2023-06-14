@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container header {
+    text-align: center;
+}
+
+.cards-list {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 0 30%;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+
+}
+
