@@ -30,7 +30,7 @@ h3{
     padding-bottom: 10px;
 }
 
-.container .subtitle{
+.container header h2 span{
     color: #327DC4;
 }
 
@@ -59,12 +59,16 @@ p{
     padding: 10px;
 }
 
-a{
+.card a{
     display: inline-block;
     padding: 5px 10px;
     text-decoration: none;
+    font-size: 11px;
+    line-height: 1;
     background-color: #327DC4;
     border-radius: 15px;
     color: #fff;
+    border: 1px solid #324CC4;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
