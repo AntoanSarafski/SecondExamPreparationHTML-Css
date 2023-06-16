@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 4em;
+    padding-bottom: 6em;
 }
 
 .section-banner h2 {
@@ -26,4 +27,9 @@
     padding: 0.5em 1em;
     border-radius: 0.3em;
     line-height: 1;
+}
+
+.section-welcome {
+    background-color: white;
+    min-height: 13em;
 }
