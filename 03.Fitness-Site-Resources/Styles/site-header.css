@@ -1,0 +1,49 @@
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: #D01919;
+    color: white;
+}
+
+.top-bar p{
+    padding: 0;
+}
+
+
+header .phone{
+    padding-left: 1em;
+}
+header .phone .phone-number{
+    padding-left: 0.5em;
+}
+
+header .address .address-location{
+    padding-left: 0.5em;
+}
+.socials{
+    display: flex;
+}
+
+.socials li,
+.socials a{
+    display: block;
+    text-decoration: none;
+}
+
+.socials li{
+    padding: 0 0.5em;
+}
+
+.socials a{
+    color: #fff;
+}
+
+h1{
+    text-decoration: none;
+}
+
+.site-header .site-title{
+    display: none;
+}
+
