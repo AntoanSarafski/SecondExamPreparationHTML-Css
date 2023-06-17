@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+
+    .site {
+        background-size: 130% auto;
+        background-position: center 2em;
+        overflow: hidden;
+    }
+
+
+    .top-bar{
+        flex-direction: column;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .main-nav ul {
+        padding: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-banner h2 {
+        max-width: 8em;
+    }
+
+    .columns {
+        flex-direction: column;
+        gap: 3em;
+    }
+}
